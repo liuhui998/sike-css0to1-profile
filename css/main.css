@@ -12,15 +12,8 @@ body {
 
 .main-header {
     background-image: url(../img/banner.jpg);
-}
-
-.main-header img {
-    display: block;
-    margin: 0 auto;
-    box-shadow: 0 0px 2px 1px rgba(0,0,0,0.2);
-    border-radius: 999px;
-
-  
+    padding: 1px;
+    margin-top: 110px;
 }
 
 .main-header__avatar {
@@ -31,16 +24,18 @@ body {
 
   border: 3px solid white;
   border-radius: 999px;
+
   box-shadow: 0 0px 2px 1px rgba(0,0,0,0.2);
 }
 
 .main-header h1 {
     display: block;
+    margin-bottom: 20px;
+
     text-align: center;
     font-weight: 300;
     font-size: 50px;
     font-family: 'Open Sans','helvetica',arial,sans-serif;
-    text-shadow: 0 1px rgba(0,0,0,0.3);
-    margin-bottom: 20px;
 
+    text-shadow: 0 1px rgba(0,0,0,0.3);
 }
